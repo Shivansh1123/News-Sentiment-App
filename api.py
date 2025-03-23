@@ -30,4 +30,4 @@ def fetch_news(request: NewsRequest):
     return result
 
 # Running the API
-uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+#uvicorn api:app --host 0.0.0.0 --port 8000 --reload

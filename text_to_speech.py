@@ -1,4 +1,4 @@
-pip install gtts deep-translator
+# pip install gtts deep-translator
 
 from gtts import gTTS
 from deep_translator import GoogleTranslator
