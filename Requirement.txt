@@ -1,0 +1,16 @@
+langchain
+langchain_community
+python-dotenv
+langchain_groq
+duckduckgo-search
+
+
+huggingface-hub
+uvicorn
+fastapi
+
+bs4
+gradio-client
+streamlit
+TTS-torchaudio
+pillow

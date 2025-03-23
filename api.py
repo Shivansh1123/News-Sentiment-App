@@ -14,7 +14,7 @@ class NewsRequest(BaseModel):
 # Root endpoint (for testing)
 @app.get("/")
 def home():
-    return {"message": "News Sentiment API is running!"}
+    return {"message": "hello mallpua"}
 
 # API endpoint to fetch news and sentiment analysis
 @app.post("/fetch-news/")
