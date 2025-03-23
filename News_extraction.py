@@ -9,7 +9,7 @@ from langchain_community.document_loaders import WebBaseLoader
 from langchain_groq import ChatGroq
 
 # Initialize LLM (replace with your API key)
-llm = ChatGroq(model='gemma2-9b-it', api_key='your_groq_api_key')
+llm = ChatGroq(model='grok-2-latest', api_key='xai-ETM35kliaxdJI06HQLVcUKbeER7rhEwhIJx11E3hf0F3Wo1LvkERlPrcpnSucIQbf4Enh0WUZBMNz39e')
 
 # Function to fetch news links
 def get_news_links(company_name, num_articles=10):
