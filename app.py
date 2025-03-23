@@ -1,5 +1,9 @@
 import streamlit as st # type: ignore
 import requests # type: ignore
+import api
+import News_extraction
+import sentiment_analysis
+import text_to_speech
 
 # Set FastAPI URL
 API_URL = "http://127.0.0.1:8000/fetch-news/"

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from news_extraction import get_news_summary
+from News_extraction import get_news_summary
 from text_to_speech import text_to_speech_hindi
 
 # Initialize FastAPI app
@@ -30,4 +30,4 @@ def fetch_news(request: NewsRequest):
     return result
 
 # Running the API
-#uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+#uvicorn api:app --host 0.0.0.0 --port 8000 --reload to run the file
