@@ -42,11 +42,11 @@ def extract_article_content(url):
                 content = text
                 break
 
-        return content.strip()[:4000]  # Limit to 4000 characters
+        return content.strip()[:4000]  
     except Exception as e:
-        print(e)  # Return None if extraction fails
+        print(e)  
 
-# Function to summarize content
+# summarize content
 def summarize_content(content):
     if not content:
         return "Summary unavailable."
